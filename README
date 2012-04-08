@@ -16,6 +16,8 @@ So, the two text-objects defined will work with the following quoting chars:
 * " "
 * ' '
 * ( )
+* [ ]
+* < >
 
 Please note that the defined text-objects are single-line oriented. I find them very useful in situations like the following (* indicated cursor position): 
 
@@ -23,5 +25,7 @@ Please note that the defined text-objects are single-line oriented. I find them 
 * (some awes*ome text)
 * {some awes*ome text}
 * 'some awes*ome text'
+* [some awes*ome text]
+* <some awes*ome text>
 
 In each case you could use commands like viq or ciq and select/cancel all the quoted text. Obviously, you can achive the same results using commands like vi" or vi{. Indeed, the real benefit you'll get using this plugin is that you will have to remember only the q char.
