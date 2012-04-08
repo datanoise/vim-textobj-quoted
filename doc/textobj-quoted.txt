@@ -22,6 +22,7 @@ quoted text. So, the two text-objects defined will work with the following quoti
 - ' '
 - ( )
 - [ ]
+- < >
 
 Please note that the defined text-objects are single-line.
 I find them very useful in situations like the following (* indicates cursor position):
@@ -29,6 +30,7 @@ I find them very useful in situations like the following (* indicates cursor pos
 - "some awes*ome text"
 - (some awes*ome text)
 - [some awes*ome text]
+- <some awes*ome text>
 - {some awes*ome text}
 - 'some awes*ome text'
 
